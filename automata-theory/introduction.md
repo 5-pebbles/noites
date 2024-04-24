@@ -120,6 +120,7 @@ Anything you can do with a finite automaton, you can do with a regular expressio
 **Theorem:** If $A_1,\ A_2$ are regular languages, so is $A_1\ \cup\ A_2$.
 
 > Let $M_1$ = $(Q_1,\ \Sigma,\ \delta_1,\ q_1,\ F_1)$ which recognizes $A_1$
+> 
 > & $M_2$ = $(Q_2,\ \Sigma,\ \delta_2,\ q_2,\ F_2)$ which recognizes $A_2$.
 > 
 > **Define $M$ = $(Q,\ \Sigma,\ \delta,\ q_0,\ F)$ which recognizes $A_1\ \cup\ A_2$ where:**
@@ -139,7 +140,9 @@ Anything you can do with a finite automaton, you can do with a regular expressio
 
 **Theorem:** If $A_1,\ A_2$ are regular languages, so is $A_1\ \cdot\ A_2$.
 
-> Let $M_1$ = $(Q_1,\ \Sigma,\ \delta_1,\ q_1,\ F_1)$ which recognizes $A_1$ & $M_2$ = $(Q_2,\ \Sigma,\ \delta_2,\ q_2,\ F_2)$ which recognizes $A_2$.
+> Let $M_1$ = $(Q_1,\ \Sigma,\ \delta_1,\ q_1,\ F_1)$ which recognizes $A_1$
+>
+> & $M_2$ = $(Q_2,\ \Sigma,\ \delta_2,\ q_2,\ F_2)$ which recognizes $A_2$.
 > 
 > 
 > **Define $M$ = $(Q,\ \Sigma,\ \delta,\ q_0,\ F)$ which recognizes $A_1\ \cdot\ A_2$ where:**
