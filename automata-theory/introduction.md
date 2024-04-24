@@ -6,7 +6,7 @@ A finite automaton is a mathematical model of a limited computational machine. T
 
 ### Definitions
 
-**Finite Automaton:** A finite automaton can be mathematically defined by a 5-tuple $(Q, \Sigma, \delta, q_0, F)$
+**Finite Automaton:** A finite automaton can be mathematically defined by a 5-tuple $(Q,\ \Sigma,\ \delta,\ q_0,\ F)$
 
 - $Q$ is a finite set of states
 - $\Sigma$ is a finite set of input symbols
@@ -23,7 +23,7 @@ A finite automaton is a mathematical model of a limited computational machine. T
 **Accepts String:** A finite automaton $M$ accepts a string $w = w_1,\ w_2,\ w_3,\ ...\ w_n$ where each $w_i\ \in\ \Sigma$ if there is a sequence of states $r_0,\ r_1,\ r_2,\ ...\ r_n\ \in\ Q$ such that:
 
 - $r_0 = q_0$
-- $r_i = \delta(r_{i-1}, w_i)\ for\ i\ \in\ \\{ 1, 2, ..., n\\}$
+- $r_i = \delta(r_{i-1}, w_i)\ for\ i\ \in\ \\{ 1, 2,\ ...,\ n\\}$
 - $r_n\ \in\ F$
 
 **Recognizes Language:** A finite automaton $M$ recognizes a language $A$ if $A\ =\ \\{ w\ |\ M\ accepts\ w \\}$
@@ -81,12 +81,6 @@ The correct finite automaton is defined as follows:
 
 - $q_0\ =\ \\{q_1\\}$
 - $F\ =\ \\{q_1\\}$
-
-### Notes
-
-Let $C$ = $\\{ w\ |\ w\ contains\ even\ number\ of\ 1's\ and\ 0's \\}$
-
-$C$ is not a regular language.
 
 ### Operations on Languages
 
